@@ -79,7 +79,7 @@ function App() {
           marginTop: '3rem',
           boxSizing: 'border-box',
           pointerEvents: isValidPhoneNumber(tel ?? "") || email ? 'auto' : 'none'
-        }} href={`https://surveys.osc.lmu.de/${useMail ? 'MockMockMail' : 'MockMockSMS'}?timezone=${selectedTimezone.value}&contact=${useMail ? email : tel}`}>Start</a>
+        }} href={`https://surveys.osc.lmu.de/${useMail || !fromUS ? 'MockMockMail' : 'MockMockSMS'}?timezone=${selectedTimezone.value}&contact=${useMail || !fromUS ? email : tel}`}>Start</a>
       </div>
     </div>
   );
