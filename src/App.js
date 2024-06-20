@@ -25,7 +25,7 @@ function App() {
     <div className="App" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
       <div style={{marginBottom: '2rem'}}>
         <h1>Sociability Improvement Program</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum volutpat tortor eget gravida. Aliquam sit amet luctus libero, vel eleifend nunc. Phasellus lacus massa, scelerisque sed magna id, pharetra fringilla nisi. Aenean faucibus nisi eget sapien tempor posuere. Vivamus quis justo pharetra, ultrices diam et, scelerisque erat.</p>
+        <p>Hi!</p>
 
         <h3>From the US</h3>
         <label style={{
