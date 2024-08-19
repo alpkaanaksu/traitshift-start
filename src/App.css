@@ -46,4 +46,14 @@ input[type="tel"] {
     padding-left: 0;
     margin-top: 16px;
   }
+
+  body {
+    height: auto;
+    overflow: auto;
+  }
+}
+
+body {
+  background-color: #ffffff;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 48px), repeating-linear-gradient(#6ccdaa55, #6ccdaa);
 }

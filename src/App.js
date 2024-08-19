@@ -33,7 +33,7 @@ function App() {
     <div className="App" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
       <div className='card-container'>
         <div className='message-container'>
-          <h1>Sociability Improvement Program</h1>
+          <h1>Traitshift</h1>
           <p>Welcome to our 2-week intervention program designed to boost your extraversion—specifically, your sociability.</p>
           <p>To get started, please provide your contact information.</p>
         </div> 
@@ -89,7 +89,7 @@ function App() {
             style={{
             display: 'block',
             padding: '10px',
-            backgroundColor: validInputs ? 'black' : 'lightgray',
+            backgroundColor: validInputs ? '#333' : 'lightgray',
             color: 'white',
             textDecoration: 'none',
             textAlign: 'center',
