@@ -1,5 +1,5 @@
 import './App.css';
-
+import Footer from './footer';
 import { useState, useEffect } from "react"
 import TimezoneSelect from "react-timezone-select"
 import { isValidPhoneNumber, formatPhoneNumber, formatPhoneNumberIntl, parsePhoneNumber } from 'react-phone-number-input'
@@ -34,7 +34,8 @@ function App() {
       <div className='card-container'>
         <div className='message-container'>
           <h1>Traitshift</h1>
-          <p>Welcome to our 2-week intervention program designed to boost your extraversion—specifically, your sociability.</p>
+          <p>Thank you for your interest! We are conducting a 2-week study designed to improve your extraversion and to help you become more sociable based on cutting-edge scientific evidence.</p>
+          <p>We do this by sending you targeted challenges via SMS or Email.</p>
           <p>To get started, please provide your contact information.</p>
         </div> 
         <div className='input-container'>
@@ -88,7 +89,7 @@ function App() {
           <a 
             style={{
             display: 'block',
-            padding: '10px',
+            padding: '18px',
             backgroundColor: validInputs ? '#333' : 'lightgray',
             color: 'white',
             textDecoration: 'none',
@@ -96,7 +97,7 @@ function App() {
             width: '100%',
             fontWeight: 'bold',
             borderRadius: '5px',
-            marginTop: '3rem',
+            marginTop: '4rem',
             boxSizing: 'border-box',
             pointerEvents: validInputs ? 'auto' : 'none',
             cursor: validInputs ? 'pointer' : 'not-allowed'
@@ -104,6 +105,7 @@ function App() {
         </div>
         
       </div>
+      <Footer text="Department of Psychology, Leopoldstraße 13, 80802 Munich, Germany. Contact: team@traitshift.com. Caspar Schumacher, David Rieger, Alp Kaan Aksu, Thomas Menzel" />
     </div>
   );
 }
